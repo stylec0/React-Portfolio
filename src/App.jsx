@@ -9,6 +9,7 @@ import Recommendations from './components/Recommendations/Recommendations'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
+
 const App = () => {
   return (
     <>
