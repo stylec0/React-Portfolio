@@ -5,7 +5,7 @@ import './Nav.css'
 const Nav = () => {
   return (
     <nav>
-      <a href='#'>
+      <a href='#' className="active"> 
       <Icon size ="big" name="home"></Icon>
       </a>
       <a href='#about'>
