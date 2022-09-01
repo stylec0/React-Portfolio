@@ -42,11 +42,12 @@ header {
 /*====== ME ====== */ 
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    /*background: linear-gradient(var(--color-primary), transparent);*/
     width: 22rem;
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
+    /* or "transform: translateX(-50%);" will do the same thing */
     margin-top: 4rem;
     border-radius: 50%;
     overflow: hidden;
@@ -67,7 +68,7 @@ header {
 /* ======= MEDIA QUERIES (MEDIUM DEVICES, Tablets) ========= */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 80vh;
     }
 }
 
