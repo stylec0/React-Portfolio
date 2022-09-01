@@ -1,23 +1,25 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
 import './Nav.css'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#' className="active"> 
+      <a href='#' onClick={() => setActiveNav('#about')} className={activeNav === '#' ? "active" : ""}>
       <Icon size ="big" name="home"></Icon>
       </a>
-      <a href='#about'>
+      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === 'about' ? 'active' : ""}>
       <Icon size ="big" name="user circle"></Icon>
       </a>
-      <a href='#experience'>
+      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === 'experience' ? 'active' : ""}>
       <Icon size ="big" name="book"></Icon>
       </a>
-      <a href='#services'>
+      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === 'services' ? 'active' : ""}>
       <Icon size ="big" name="talk"></Icon>
       </a>
-      <a href='#contact'>
+      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === 'contact' ? 'active' : ""}>
       <Icon size ="big" name="phone"></Icon>
       </a>
     </nav>
