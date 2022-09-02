@@ -7,7 +7,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#' onClick={() => setActiveNav('#about')} className={activeNav === '#' ? "active" : ""}>
+      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? "active" : ""}>
       <Icon size ="big" name="home"></Icon>
       </a>
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === 'about' ? 'active' : ""}>
@@ -16,9 +16,12 @@ const Nav = () => {
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === 'experience' ? 'active' : ""}>
       <Icon size ="big" name="book"></Icon>
       </a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === 'services' ? 'active' : ""}>
+      <a href='#projects' onClick={() => setActiveNav('#projects')} className={activeNav === 'projects' ? 'active' : ""}>
       <Icon size ="big" name="talk"></Icon>
       </a>
+      {/*<a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === 'services' ? 'active' : ""}>
+      <Icon size ="big" name="talk"></Icon>
+      </a> ---------- Disabled until real services can be added*/}
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === 'contact' ? 'active' : ""}>
       <Icon size ="big" name="phone"></Icon>
       </a>

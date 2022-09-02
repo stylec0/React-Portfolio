@@ -65,7 +65,7 @@ h1 {
 }
 section {
     margin-top: 8rem;
-    height: 100vh;
+    /*height: 100vh;  Removed after working through experience CSS, caused sections to be stacked in media query for mobile devices*/
 }
 
 section > h2, 
