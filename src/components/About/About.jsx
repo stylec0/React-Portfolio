@@ -5,7 +5,7 @@ import ME from '../../assets/Charles.jpg'
 
 const About = () => {
   return (
-    <section id="about">About
+    <section id="about">
     <h5>Get to Know</h5>
     <h2>About Me</h2>
 
@@ -17,7 +17,7 @@ const About = () => {
         </div>
 
         <div className="about_content">
-          <div classNmae="about_cards">
+          <div className="about_cards">
           <article className='about_card'>
             <Icon size="big" name="vcard" ></Icon>
             <h5>Experience</h5>
@@ -27,6 +27,13 @@ const About = () => {
           <article className='about_card'>
             <Icon size="big" name="cube" ></Icon>
             <h5>Projects</h5>
+            <small>Full CRUD Projects</small>
+          </article>
+  
+
+          <article className='about_card'>
+            <Icon size="big" name="cube" ></Icon>
+            <h5>Test</h5>
             <small>Full CRUD Projects</small>
           </article>
           </div>
@@ -40,6 +47,7 @@ const About = () => {
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Chat!</a>
+          
       </div>
     </div>
     </section>
