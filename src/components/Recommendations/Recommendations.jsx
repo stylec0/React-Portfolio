@@ -3,7 +3,18 @@ import './Recommendations.css'
 
 const Recommendations = () => {
   return (
-    <div>Recommendations</div>
+    <section id='recommendations'>
+      <h5>Recommendations from Clients</h5>
+      <h2>Recommendations</h2>
+
+      <div className="container recommendations_container"></div>
+      <article className="recommendation">
+        <div className="client_avatar">
+          <img src="" alt="" />
+        </div>
+      </article>
+    
+    </section>
   )
 }
 
