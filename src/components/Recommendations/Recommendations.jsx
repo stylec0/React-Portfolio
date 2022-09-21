@@ -44,7 +44,7 @@ const Recommendations = () => {
             return (
       <SwiperSlide className="recommendation">
         <div className="client_avatar">
-          <img src={pic} />
+          <img src={pic} alt='Icon One'/>
           </div>
           <h5 classaName='client_name'>{name}</h5>
           <small className='client_review'>{review}</small>

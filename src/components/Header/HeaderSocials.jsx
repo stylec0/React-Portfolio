@@ -4,10 +4,10 @@ import { Icon } from 'semantic-ui-react'
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-      <a href="https://github.com/stylec0" target="_blank">
+      <a href="https://github.com/stylec0" target="_blank" rel="noreferrer">
         <Icon size="big" name="github"></Icon>
         </a> 
-        <a href="https://www.linkedin.com/in/charlesvanco/" target="_blank">
+        <a href="https://www.linkedin.com/in/charlesvanco/" target="_blank" rel="noreferrer">
         <Icon size="big" name="linkedin"></Icon>
         </a> 
     </div>
