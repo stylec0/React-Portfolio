@@ -3,6 +3,16 @@ import './Recommendations.css'
 import PIC1 from '../../assets/ArthurD.jpg'
 import PIC2 from '../../assets/Jason-Nguyen.jpg'
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination, Navigation } from "swiper";
+
 const data = [
   {
     pic: PIC1,
@@ -23,21 +33,26 @@ const Recommendations = () => {
       <h5>Recommendations from Clients</h5>
       <h2>Recommendations</h2>
 
-      <div className="container recommendations_container">
+      <Swiper className="container recommendations_container"
+      // install Swiper modules
+      modules={[Navigation, Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      pagination={{ dynamicBullets: true, clickable: true }}>
         {
           data.map(({pic, name, review}, index) => {
             return (
-      <article className="recommendation">
+      <SwiperSlide className="recommendation">
         <div className="client_avatar">
           <img src={pic} />
           </div>
           <h5 classaName='client_name'>{name}</h5>
           <small className='client_review'>{review}</small>
-      </article>
+      </SwiperSlide>
             )
           })
         }
-    </div>
+    </Swiper>
     </section>
   )
 }
