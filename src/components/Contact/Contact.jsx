@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './Contact.css'
 import { Icon } from 'semantic-ui-react'
 import emailjs from 'emailjs-com';
@@ -6,16 +6,18 @@ import 'reactjs-popup/dist/index.css';
 
 
 /* Currently working on material alert that will show an alert when submit button is clicked */
-//import Alert from '@mui/material/Alert';
-//import AlertTitle from '@mui/material/AlertTitle';
-//import Stack from '@mui/material/Stack';
+import Alert from '@mui/material/Alert';
+import AlertTitle from '@mui/material/AlertTitle';
+import Stack from '@mui/material/Stack';
 
-//import '@fontsource/roboto/300.css';
-//import '@fontsource/roboto/400.css';
-//import '@fontsource/roboto/500.css';
-//import '@fontsource/roboto/700.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
 const Contact = () => {
+
+  const [ showAlert, setShowAlert ] = useState(false)
 
   /* Currently working on code that will show an alert when submit button is clicked */
   //const DescriptionAlerts = () => {
@@ -37,6 +39,7 @@ const Contact = () => {
     emailjs.sendForm('service_v5d7uto', 'template_gwmpqcf', form.current, '_jCplsObxZgFRAYaZ')
       .then((result) => {
         e.target.reset();
+        setShowAlert(true)
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
@@ -48,6 +51,7 @@ const Contact = () => {
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact_container">
+      
         <div className="contact_options">
           <article className='contact_option'>
             <Icon className='contact_option-icon' size='large' name='mail'></Icon>
@@ -76,6 +80,7 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
+        {showAlert && (<Stack sx={{ width: '100%' }} spacing={2}><Alert severity="success"><AlertTitle>Success</AlertTitle>Email Sent Successfully</Alert></Stack>)}
       </div>
     </section>
   )
