@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './Contact.css'
 import { Icon } from 'semantic-ui-react'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_v5d7uto', 'template_gwmpqcf', form.current, '_jCplsObxZgFRAYaZ')
+      .then((result) => {
+        e.target.reset()
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -29,7 +44,7 @@ const Contact = () => {
           </article>
         </div>
         {/* End of contact options */}
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Your Full Name' required />
           <input type='email' name='email' placeholder='Your Email' required />
           <input type='subject' name='subject' placeholder='Subject' required />
