@@ -23,7 +23,7 @@ const Nav = () => {
       <Icon size ="big" name="talk"></Icon>
       </a> ---------- Disabled until real services can be added*/}
       <a href='#recommendations' onClick={() => setActiveNav('#recommendations')} className={activeNav === '#recommendations' ? 'active' : ""}>
-      <Icon size ="big" name="talk"></Icon>
+      <Icon size ="big" name="thumbs up"></Icon>
       </a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ""}>
       <Icon size ="big" name="phone"></Icon>

@@ -180,14 +180,14 @@ const Experience = () => {
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
               <h4>Intel NUCs </h4>
-              <small className='text-light'>Basic</small>
+              <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
               <h4>Cisco Networking</h4>
-              <small className='text-light'>Basic</small>
+              <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -195,6 +195,13 @@ const Experience = () => {
               <div>
               <h4>Virtual Machines Servers</h4>
               <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
+              <div>
+              <h4>Digital Signage/Visual Paging</h4>
+              <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
@@ -223,7 +230,7 @@ const Experience = () => {
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
               <h4>BMC Remedy ITSM</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -271,8 +278,8 @@ const Experience = () => {
             <article className='experience_details'>
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
-              <h4>Microsoft Azure</h4>
-              <small className='text-light'>Basic</small>
+              <h4>Fourwinds Interactive Content Manager/Player</h4>
+              <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>

@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -62,7 +62,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.9rem;
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES, Tablets) ========= */

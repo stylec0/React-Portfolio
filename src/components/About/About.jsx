@@ -20,21 +20,21 @@ const About = () => {
           <div className="about_cards">
           <article className='about_card'>
             <Icon size="big" name="vcard" ></Icon>
-            <h5>Experience</h5>
-            <small>3+ years working</small>
+            <h5>IT Experience</h5>
+            <small>10+ years working in the industry</small>
           </article>
 
           <article className='about_card'>
             <Icon size="big" name="cube" ></Icon>
-            <h5>Projects</h5>
-            <small>Full CRUD Projects</small>
+            <h5>Software Development</h5>
+            <small>Recent Graduate of General Assembly with experience creating Full-Stack CRUD applications using Javascript, Express, React, and Django</small>
           </article>
   
 
           <article className='about_card'>
-            <Icon size="big" name="cube" ></Icon>
-            <h5>Test</h5>
-            <small>Full CRUD Projects</small>
+            <Icon size="big" name="handshake" ></Icon>
+            <h5>Customer Driven</h5>
+            <small>15+ years of providing an exceptional customer service experience to all clients </small>
           </article>
           </div>
 
