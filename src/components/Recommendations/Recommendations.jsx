@@ -36,7 +36,7 @@ const data = [
 const Recommendations = () => {
   return (
     <section id='recommendations'>
-      <h2>Recommendations</h2>
+      <h2 className='section-headers'>Recommendations</h2>
 
       <Swiper className="container recommendations_container"
       // install Swiper modules

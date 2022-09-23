@@ -6,8 +6,8 @@ import { Icon } from 'semantic-ui-react'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5 className='text-medium'>What Skills I Have</h5>
+      <h2 className='section-headers'>My Experience</h2>
 
       <div className="container experience_container">
         <div className='experience_frontend'>

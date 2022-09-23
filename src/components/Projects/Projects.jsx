@@ -36,8 +36,8 @@ import data from '../../assets/ProjectData.jsx'
 const Projects = () => {
   return (
     <section id='projects'>
-    <h5>My Recent Work</h5>
-    <h2>Projects</h2>
+    <h5 className='text-medium'>My Recent Work</h5>
+    <h2 className='section-headers'>Projects</h2>
 
     <div className="container projects_container">
       {

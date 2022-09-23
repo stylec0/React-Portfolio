@@ -39,6 +39,11 @@ header {
     background: var(--color-primary);
 }
 
+.header_me {
+    font-size: large;
+    color: var(--color-light);
+}
+
 /*====== ME ====== */ 
 
 .me {

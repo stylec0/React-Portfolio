@@ -40,6 +40,11 @@
     color: var(--color-primary);
 }
 
+.experience_title {
+    font-size: large;
+}
+
+
 /* ======= MEDIA QUERIES (MEDIUM DEVICES, Tablets) ========= */
 @media screen and (max-width: 1024px) {
     .experience_container {
