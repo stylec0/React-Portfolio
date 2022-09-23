@@ -17,7 +17,14 @@
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
-    user-select: none;
+    /*user-select: none;*/
+    border: 1px solid transparent;
+}
+
+.recommendation:hover {
+    transition: var(--transition);
+    border-color:var(--color-primary-variant);
+    background: transparent;
 }
 
 
@@ -30,7 +37,7 @@
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    background: var(--color-white)
+    background: var(--color-white);
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES, Tablets) ========= */

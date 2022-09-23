@@ -24,7 +24,7 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 400ms ease;
+    --transition: all 600ms ease;
 
 /* The width of the container class that will be wrapped around the different elements. Screen size change */
     --container-width-lg: 75%;
