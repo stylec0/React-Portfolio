@@ -26,6 +26,13 @@ const data = [
         title: "1StopShop",
         github: 'https://github.com/stylec0/1StopShop',
         demo: "https://project-1stopshop.herokuapp.com"
+    },
+    {
+        id: 5,
+        image:"https://i.imgur.com/XvCB1L8.png", 
+        title: "React Portfolio",
+        github: 'https://github.com/stylec0/React-Portfolio',
+        demo: "https://charles-co-portfolio.herokuapp.com/"
     }
 ]
 
