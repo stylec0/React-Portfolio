@@ -62,13 +62,13 @@ const Contact = () => {
           <article className='contact_option'>
             <Icon className='contact_option-icon' size='large' name='facebook messenger'></Icon>
             <h4>Messenger</h4>
-            <h5>facebook messenger</h5>
+            {/*<h5>facebook messenger</h5>*/}
             <a href='https://m.me/charles.v.co' target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className='contact_option'>
             <Icon className='contact_option-icon' size='large' name='whatsapp'></Icon>
             <h4>WhatsApp</h4>
-            <h5>206-214-7008</h5>
+            {/*<h5>206-214-7008</h5>*/}
             <a href='https://api.whatsapp.com/send?phone=2062147008' target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
