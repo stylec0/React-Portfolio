@@ -45,6 +45,10 @@ const About = () => {
           that is easy to work with and brings positive energy to the workplace. 
           </p>
 
+          <p>In my free time, I enjoy playing video games (CounterStrike, Dota 2, Lost Ark, Call of Duty: Warzone) and streaming on Twitch.tv, building custom mechanical keyboards,
+            playing volleyball, traveling to Disneyland/Disney World and spending time with my beautiful wife Christina and our newborn daughter Alayna!
+          </p>
+
           <a href='#contact' className='btn btn-primary'>Let's Chat!</a>
           
       </div>
