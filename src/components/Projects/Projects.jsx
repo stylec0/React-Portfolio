@@ -41,13 +41,14 @@ const Projects = () => {
 
     <div className="container projects_container">
       {
-        data.map(({id, image, title, github, demo}) => {
+        data.map(({id, image, title, description, github, demo}) => {
           return(
             <article key={id} className='projects_item'>
             <div className="projects_item-image">
               <img src={image} alt={title} />
             </div>
             <h3>{title}</h3>
+            <small className='text-light'>{description}</small>
             <div className='projects_item-cta'>
               <a href={github} className='btn'>Github</a>
               <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>

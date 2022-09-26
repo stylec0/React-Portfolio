@@ -23,7 +23,7 @@
 }
 
 .projects_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
     text-align: center; /* Added this to a line text to center */
 }
 
@@ -31,6 +31,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    padding-top: 2rem;;
 }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES, Tablets) ========= */
