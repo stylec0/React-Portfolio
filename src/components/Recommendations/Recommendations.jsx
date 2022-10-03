@@ -3,6 +3,8 @@ import './Recommendations.css'
 import PIC1 from '../../assets/ArthurD.jpg'
 import PIC2 from '../../assets/Jason-Nguyen.jpg'
 import PIC3 from '../../assets/Elsbeth.png'
+import PIC4 from '../../assets/CjSanchez.jpg'
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -29,6 +31,11 @@ const data = [
     pic: PIC3,
     name: 'Elsbeth Cockcroft',
     review: 'Charles is a self-motivator that is willing to work for the good of the whole. His personality and experiences have made him an ideal candidate for working with others. He is not a “me first” kind of person; instead Charles wants to see everyone achieve success. I was repeatedly impressed with Charles’s decision making skills and his willingness to work for what must be done. Charles is a man who truly understands the meaning of responsibility and commitment; if he is set to a task not only will he complete it, but it will be done to the best of his ability in a manner that goes above and beyond the stated expectations. '
+  },
+  {
+    pic: PIC4,
+    name: 'CJ (Christian) Sanchez ',
+    review: 'I have had the privilege to not only teach Charles during his time at the General Assembly Immersive course but also work with him when he stepped up to support other students as a TA all while balancing some positive big life changes. I have been consistently impressed with his ability to not only stay cool calm and collected but to always be present when you are working with him. Whenever I see that Charles is working with one of my courses I feel a sense of relief and gratitude that our students are in capable hands. I know that anyone who pulls Charles into a team will get someone who is committed and has the technical skills to not only execute code but to lift up teammates and colleagues if they are struggling. Anyone would be lucky to work with Charles as I have been this past year. I can not praise him enough for the work he has put in and how great he is to work with.'
   },
 ]
 
