@@ -50,7 +50,7 @@ const Experience = () => {
             <article className='experience_details'>
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
-              <h4>Angular</h4>
+              <h4>VUE</h4>
               
               </div>
             </article>
@@ -80,6 +80,13 @@ const Experience = () => {
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
               <h4>PostGresSQL</h4>
+              
+              </div>
+            </article>
+            <article className='experience_details'>
+              <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
+              <div>
+              <h4>Sequelize</h4>
               
               </div>
             </article>
@@ -278,6 +285,20 @@ const Experience = () => {
               <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
               <div>
               <h4>Fourwinds Interactive Content Manager/Player</h4>
+              
+              </div>
+            </article>
+            <article className='experience_details'>
+              <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
+              <div>
+              <h4>Lifesize Video System</h4>
+              
+              </div>
+            </article>
+            <article className='experience_details'>
+              <Icon className="experience_details-icon" size='large'name='check square outline'></Icon>
+              <div>
+              <h4>Sony Vegas, Davinci Resolve Studio, Adobe</h4>
               
               </div>
             </article>
