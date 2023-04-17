@@ -77,9 +77,9 @@ header {
     }
 
     .me {
-        width: 20rem;
-        height: 20rem;
-        left: calc(50% - 11rem);
+        width: 28rem;
+        height: 28rem;
+        left: calc(50% - 15rem);
     }
 
 }
