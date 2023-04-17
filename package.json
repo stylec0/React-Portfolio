@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio-website",
+  "homepage": "http://charles-co-portfolio.xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

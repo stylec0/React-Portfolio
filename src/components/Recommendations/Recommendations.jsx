@@ -4,6 +4,7 @@ import PIC1 from '../../assets/ArthurD.jpg'
 import PIC2 from '../../assets/Jason-Nguyen.jpg'
 import PIC3 from '../../assets/Elsbeth.png'
 import PIC4 from '../../assets/CjSanchez.jpg'
+import PIC5 from '../../assets/ShadiaDaniels.jpg'
 
 
 // Import Swiper React components
@@ -36,6 +37,11 @@ const data = [
     pic: PIC4,
     name: 'CJ (Christian) Sanchez ',
     review: 'I have had the privilege to not only teach Charles during his time at the General Assembly Immersive course but also work with him when he stepped up to support other students as a TA all while balancing some positive big life changes. I have been consistently impressed with his ability to not only stay cool calm and collected but to always be present when you are working with him. Whenever I see that Charles is working with one of my courses I feel a sense of relief and gratitude that our students are in capable hands. I know that anyone who pulls Charles into a team will get someone who is committed and has the technical skills to not only execute code but to lift up teammates and colleagues if they are struggling. Anyone would be lucky to work with Charles as I have been this past year. I can not praise him enough for the work he has put in and how great he is to work with.'
+  },
+  {
+    pic: PIC5,
+    name: 'Shadia Daniels',
+    review: 'It is a pleasure to write this recommendation in support of Charles Co, as his former manager while he was a Teaching Assistant (TA) at General Assembly (GA). Prior to becoming a TA, Charles successfully completed an intensive software engineering immersive program, and his strong technical skills were evident in the enthusiastic support that he provided for GA students. In addition to providing beneficial software development skill training, his interpersonal savvy was an asset to his students and the rest of his instructional teams. Charles’ desire for professional growth was apparent, as he frequently sought new learning opportunities within and outside of GA. '
   },
 ]
 

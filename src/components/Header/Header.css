@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 2rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -48,10 +48,10 @@ header {
 
 .me {
     /*background: linear-gradient(var(--color-primary), transparent);*/
-    width: 30rem;
+    width: 40rem;
     height: 40rem;
     position: absolute;
-    left: calc(50% - 15rem);
+    left: calc(50% - 20rem);
     /* or "transform: translateX(-50%);" will do the same thing */
     margin-top: 4rem;
     border-radius: 50%;
@@ -77,8 +77,8 @@ header {
     }
 
     .me {
-        width: 22rem;
-        height: 30rem;
+        width: 20rem;
+        height: 20rem;
         left: calc(50% - 11rem);
     }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
 import './About.css'
-import ME from '../../assets/Charles.jpg'
+import ME from '../../assets/Family.jpg'
 
 const About = () => {
   return (
